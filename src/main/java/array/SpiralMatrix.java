@@ -1,4 +1,4 @@
-package main.java.binary_search;
+package main.java.array;
 //https://programmercarl.com/0059.%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5II.html
 public class SpiralMatrix {
 // [1,2,3],

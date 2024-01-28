@@ -1,4 +1,4 @@
-package main.java.binary_search;
+package main.java.array;
 
 public class SquareSortedArray {
     public int[] solution1(int[] nums){

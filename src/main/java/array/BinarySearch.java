@@ -1,4 +1,4 @@
-package main.java.binary_search;
+package main.java.array;
 
 public class BinarySearch {
     //[3,5,6,8,9,10]

@@ -1,4 +1,4 @@
-package main.java.binary_search;
+package main.java.array;
 //长度最小的子数组
 public class MinSubArrayLen {
 
@@ -18,7 +18,6 @@ public class MinSubArrayLen {
       }
 
       return result == Integer.MAX_VALUE ? 0 : result;
-
 
   }
 
