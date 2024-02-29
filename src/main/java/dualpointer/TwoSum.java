@@ -1,5 +1,7 @@
-package main.java.hash;
+package main.java.dualpointer;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,4 +26,7 @@ public class TwoSum {
         }
         return  arr;
     }
+
+
+
 }

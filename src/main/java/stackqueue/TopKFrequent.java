@@ -25,7 +25,7 @@ public class TopKFrequent {
         for (int i = 0; i < k; i++) {
             res[i] = queue.poll()[0];
         }
-        
+
         return res;
     }
 }
