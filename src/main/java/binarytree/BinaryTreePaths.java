@@ -12,9 +12,7 @@ public class BinaryTreePaths {
         if (root == null) {
             return res;
         }
-
         traversal(root,paths,res);
-
         return res;
     }
 
