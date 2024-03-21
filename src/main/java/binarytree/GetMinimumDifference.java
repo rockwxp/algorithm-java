@@ -7,7 +7,7 @@ public class GetMinimumDifference {
 
     private int result = Integer.MAX_VALUE;
     private TreeNode preNode;
-    private List<Integer> arr = new ArrayList<>();
+    private final List<Integer> arr = new ArrayList<>();
     public int getMinimumDifference(TreeNode root){
         traversal(root);
         return result;
