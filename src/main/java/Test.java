@@ -1,6 +1,7 @@
 package main.java;
 
 
+import main.java.backtracking.Combine;
 import main.java.dualpointer.TwoSum;
 import main.java.stackqueue.EvalRPN;
 import main.java.stackqueue.MaxSlidingWindow;
@@ -13,11 +14,10 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        int[] nums = new int[]{3, 2, 4};
+        String digits = "23";
+        int r = Integer.parseInt(digits.charAt(0)+"");
+        System.out.println(r);
 
-        for (int i = 0; i < nums.length; i++) {
-            System.out.println(nums[i]);
-        }
     }
 
 }
