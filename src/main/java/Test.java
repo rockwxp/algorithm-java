@@ -2,7 +2,9 @@ package main.java;
 
 
 import main.java.backtracking.Combine;
+import main.java.backtracking.Subsets;
 import main.java.dualpointer.TwoSum;
+import main.java.greedy.*;
 import main.java.stackqueue.EvalRPN;
 import main.java.stackqueue.MaxSlidingWindow;
 import main.java.stackqueue.ValidParentheses;
@@ -14,10 +16,10 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        String digits = "23";
-        int r = Integer.parseInt(digits.charAt(0)+"");
-        System.out.println(r);
 
+        MonotoneIncreasingDigits test = new MonotoneIncreasingDigits();
+        int i = test.monotoneIncreasingDigits(101);
+        System.out.println(i);
     }
 
 }
