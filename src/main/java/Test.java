@@ -17,9 +17,11 @@ import java.util.*;
 public class Test {
     public static void main(String[] args) {
 
-        MonotoneIncreasingDigits test = new MonotoneIncreasingDigits();
-        int i = test.monotoneIncreasingDigits(101);
-        System.out.println(i);
+        int[][] dp = new int[3][7];
+
+
+
+
     }
 
 }
