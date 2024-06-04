@@ -31,6 +31,7 @@ public class BinarySearch {
         return -1;
     }
 
+
     public static int solution2(int[] nums,int target){
         if (nums[0] > target || nums[nums.length - 1] < target) {
             return -1;
